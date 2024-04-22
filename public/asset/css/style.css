@@ -1,0 +1,51 @@
+:root{
+    --orange: #FF6D01;
+}
+
+.text-logo{
+    font-size: 4.3rem;
+    font-weight: 900;
+}
+.text-b-logo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--orange);
+}
+.carousel-size{
+    width: 400px;
+}
+.photo-text{
+    width: 50%;
+}
+.photo-text p{
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+.banner-title{
+    text-align: center;
+    font-weight: bold;
+    color: var(--orange);
+}
+.card-title-review{
+    text-decoration: underline;
+}
+.user-icon{
+    font-size: 4.063rem;
+}
+.review-card{
+    max-height: 410px;
+    overflow-y: scroll;
+}
+footer{
+    border-top: 2px solid grey;
+}
+footer .footer-font-title{
+    text-align: center;
+    font-weight: bold;
+    color: var(--orange);
+}
+.sosial-media-icon .nav-item a{
+    font-size: 1.8rem;
+    color: #000;
+}
