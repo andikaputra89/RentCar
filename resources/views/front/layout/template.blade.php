@@ -12,8 +12,8 @@
     <div class="container p-0">
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="{{url('/')}}">
-                    <img src="{{asset('asset/img/logo.png')}}" alt="Logo" width="200" height="150">
+                <a class="navbar-brand mx-auto" href="{{url('/')}}">
+                    <img class="img-fluid" src="{{asset('asset/img/logo.png')}}" alt="Logo" width="200" height="150">
                   </a>
               <div class="d-flex flex-column me-5">
                 <p class="text-center text-logo">RENT A CAR IN BALI</p>

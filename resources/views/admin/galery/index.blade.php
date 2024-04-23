@@ -19,10 +19,10 @@
         @endif
         <div class="row">
             @foreach ($galery as $galery)
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="card m-2" style="max-width: 17rem;">
                         <div class="img" style="max-height: 400px;">
-                            <img src="{{asset('storage/asset/img/'.$galery->gambar)}}" class="card-img-top" alt="galery" style="height:300px;object-fit:cover;">
+                            <img src="{{asset('storage/asset/img/'.$galery->gambar)}}" class="img-fluid card-img-top" alt="galery" style="height:300px;object-fit:cover;">
                         </div>
                         <div class="card-body">
                             <div class="d-flex justify-content-center">

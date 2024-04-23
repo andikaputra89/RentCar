@@ -2,7 +2,7 @@
 @section('title','CV. BaliMedia RentCar | Home')
 @section('content')
 <div class="container">
-    <img src="asset/img/g mix.png" alt="Bannner Image" class="mt-3" width="100%" height="500">
+    <img src="asset/img/g mix.png" alt="Bannner Image" class="img-fluid mt-3" width="100%" height="500">
     <div class="row mt-3">
         <div class="col-md-6">
             <div class="carousel-size mx-auto">
@@ -29,12 +29,12 @@
               </div>
              
               <a class="mx-auto" href="https://wa.me/6285739847646">
-                <img src="asset/img/TOMBOL WA.png" alt="" width="500px">
+                <img class="img-fluid" src="asset/img/TOMBOL WA.png" alt="" width="500px">
               </a>
         </div>
         <div class="col-md-6">
             <div class="card float-end me-5 border-0" style="width: 28rem;">
-                <img src="asset/img/g3.png" class="card-img-top" alt="Image">
+                <img src="asset/img/g3.png" class=" img-fluid card-img-top" alt="Image">
                 <div class="card-body">
                   <h5 class="banner-title">CV. BALI MEDIA RENT CAR</h5>
                   <p class="text-center">CV. Bali Media didirikan pada tahun 2022, hingga saat ini kami terus be rusaha untuk mengembangkan produk dan layanan yang kami sediakan. Berawal dari hanya menyewakan dua mobil, kini CV. Bali Media telah berkembang menyediakan beberapa pilihan armada. Semua kendaraan mewah yang kami sewa sudah termasuk supir dan bbm</p>
