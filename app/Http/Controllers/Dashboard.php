@@ -34,6 +34,7 @@ class Dashboard extends Controller
                 ]);
 
             }
+            return back()->with('msg','Data brhasil disimpan');
             
     }
     public function delete(string $id)
